@@ -18,7 +18,7 @@ public class SocketServer implements Runnable {
 
         try {
             serverSocket = new ServerSocket(port);
-            System.out.println("Start Server...");
+            System.out.println("Start Server port:" + port);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -29,31 +29,29 @@ public class SocketServer implements Runnable {
     public void run() {
 
         while (true) {
-            System.out.println("ServerSocket Listen on port:" + port);
+            try {
+                revSocket = serverSocket.accept();
+                System.out.println("Accept...");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
 
-            while (true) {
-                try {
-                    revSocket = serverSocket.accept();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+            BufferedReader revBuffer = null;
+            try {
+                revBuffer = new BufferedReader(new InputStreamReader(revSocket.getInputStream()));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
 
-                BufferedReader revBuffer = null;
-                try {
-                    revBuffer = new BufferedReader(new InputStreamReader(revSocket.getInputStream()));
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+            String revMsg = null;
 
-                String revMsg = null;
-
-                try {
-                    while ((revMsg = revBuffer.readLine()) != null)
-                        System.out.println(revMsg);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+            try {
+                while ((revMsg = revBuffer.readLine()) != null)
+                    System.out.println(revMsg);
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
+
     }
 }
