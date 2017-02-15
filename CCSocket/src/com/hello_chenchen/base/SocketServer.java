@@ -10,7 +10,7 @@ import java.net.Socket;
  */
 public class SocketServer implements Runnable {
 
-    private int port;           //socket连接port
+    private int socketServerPort;           //socket连接port
     private ServerSocket serverSocket;  //服务器socket
     private Socket revSocket;
     private String revMsg = null;
@@ -20,11 +20,11 @@ public class SocketServer implements Runnable {
      * @param Port 监听的端口
      */
     public SocketServer(int Port){
-        this.port   = Port;
+        this.socketServerPort = Port;
 
         try {
-            serverSocket = new ServerSocket(port);
-            System.out.println("Start Server port:" + port);
+            serverSocket = new ServerSocket(socketServerPort);
+            System.out.println("Start Server socketServerPort:" + socketServerPort);
         } catch (IOException e) {
             e.printStackTrace();
         }

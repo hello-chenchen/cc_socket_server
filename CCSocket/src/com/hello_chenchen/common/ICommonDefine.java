@@ -1,4 +1,4 @@
-package com.hello_chenchen.com.hello_chenchen.common;
+package com.hello_chenchen.common;
 
 /**
  *
