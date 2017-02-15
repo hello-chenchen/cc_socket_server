@@ -54,7 +54,6 @@ public class SocketServer implements Runnable {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
         }
     }
 
