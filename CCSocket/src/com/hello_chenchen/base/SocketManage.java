@@ -1,4 +1,4 @@
-package com.hello_chenchen.Business;
+package com.hello_chenchen.base;
 
 import com.hello_chenchen.base.SocketServer;
 
@@ -10,7 +10,7 @@ import java.util.HashMap;
  */
 public class SocketManage {
 
-    private HashMap<Integer , SocketServer> socketMamageMap;
+    private HashMap<Integer , SocketServer> socketMamageMap = new HashMap<Integer , SocketServer>();
 
     public SocketManage()
     {

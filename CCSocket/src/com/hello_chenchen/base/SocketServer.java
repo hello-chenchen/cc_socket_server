@@ -15,7 +15,7 @@ public class SocketServer implements Runnable {
     private ServerSocket serverSocket;  //服务器socket
     private Socket revSocket;
     private int clientNum;
-    private HashMap<Integer, Socket> socketHashMap;
+    private HashMap<Integer, Socket> socketHashMap = new HashMap<Integer, Socket>();
 
 
     /**
@@ -47,6 +47,7 @@ public class SocketServer implements Runnable {
                 Integer itKey = clientNum;
                 socketHashMap.put(itKey, revSocket);
                 clientNum++;
+                System.out.println("Total Client:" + socketHashMap.size());
             } catch (IOException e) {
                 e.printStackTrace();
             }

@@ -1,5 +1,6 @@
 package com.hello_chenchen.main;
 
+import com.hello_chenchen.Business.ServiceManage;
 import com.hello_chenchen.base.SocketServer;
 
 import java.io.IOException;
@@ -10,8 +11,6 @@ import java.io.IOException;
 public class SocketMain {
 
     public static void main(String[] args) throws IOException {
-        SocketServer serverSocket = new SocketServer(5000);
-        Thread serverThread = new Thread(serverSocket);
-        serverThread.start();
+        ServiceManage serviceManage = new ServiceManage();
     }
 }

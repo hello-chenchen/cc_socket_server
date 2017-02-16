@@ -11,7 +11,7 @@ import java.util.HashMap;
  */
 public class CustomConf implements ICommonDefine {
 
-    private HashMap<Integer , CustomConfDefine> customConfMap;
+    private HashMap<Integer , CustomConfDefine> customConfMap = new HashMap<Integer , CustomConfDefine>();
 
     public CustomConf()
     {
