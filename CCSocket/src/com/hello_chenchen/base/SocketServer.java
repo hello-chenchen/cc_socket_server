@@ -3,6 +3,7 @@ package com.hello_chenchen.base;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.SocketException;
 import java.util.HashMap;
 
 /**
@@ -14,8 +15,6 @@ public class SocketServer implements Runnable {
     private int socketServerPort;           //socket连接port
     private ServerSocket serverSocket;  //服务器socket
     private Socket revSocket;
-    private int clientNum;
-    private HashMap<Integer, Socket> socketHashMap = new HashMap<Integer, Socket>();
 
 
     /**
@@ -32,27 +31,32 @@ public class SocketServer implements Runnable {
             e.printStackTrace();
         }
 
-        clientNum = 0;
     }
 
     @Override
     public void run() {
 
-        while (true){
+//        while (true){
             try {
-                revSocket = serverSocket.accept();
-                System.out.println("Accept...");
-                new SocketRevThread(revSocket);
+                while (true) {
+                    revSocket = serverSocket.accept();
+                    System.out.println("Accept...");
+                    new SocketRevThread(revSocket);
 
-                Integer itKey = clientNum;
-                socketHashMap.put(itKey, revSocket);
-                clientNum++;
-                System.out.println("Total Client:" + socketHashMap.size());
-            } catch (IOException e) {
+                }
+            } catch (IOException e){
+                System.out.println("client disconnected!");
                 e.printStackTrace();
+            } finally {
+                System.out.println("Server disconnected!");
+                try {
+                    serverSocket.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
 
-        }
+//        }
     }
 
     /**
