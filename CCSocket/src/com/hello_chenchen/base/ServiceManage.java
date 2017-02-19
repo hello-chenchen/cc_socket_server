@@ -1,4 +1,4 @@
-package com.hello_chenchen.Business;
+package com.hello_chenchen.base;
 
 import com.hello_chenchen.base.SocketManage;
 import com.hello_chenchen.base.SocketServer;
@@ -41,11 +41,6 @@ public class ServiceManage implements ICommonDefine {
         }
 
         return CC_SUCCESS;
-    }
-
-    private void HandleMsg(SocketServer socketServer)
-    {
-
     }
 
 }
