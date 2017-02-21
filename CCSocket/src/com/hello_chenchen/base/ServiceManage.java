@@ -1,5 +1,9 @@
 package com.hello_chenchen.base;
 
+import com.hello_chenchen.Business.HandleByteBlockQueue;
+import com.hello_chenchen.Business.HandleData;
+import com.hello_chenchen.Business.HandleMain;
+import com.hello_chenchen.Business.HandleStringBlockQueue;
 import com.hello_chenchen.base.SocketManage;
 import com.hello_chenchen.base.SocketServer;
 import com.hello_chenchen.common.CustomConfDefine;
@@ -23,7 +27,7 @@ public class ServiceManage implements ICommonDefine {
         InitBusCtl();
     }
 
-    public int InitBusCtl()
+    private int InitBusCtl()
     {
         socketManage = new SocketManage();
         customConf = new CustomConf();
@@ -41,6 +45,12 @@ public class ServiceManage implements ICommonDefine {
         }
 
         return CC_SUCCESS;
+    }
+
+    public void InitHandleBlockQueue(HandleMain handleMain)
+    {
+        HandleByteBlockQueue handleByteBlockQueue = new HandleByteBlockQueue(handleMain);
+        HandleStringBlockQueue handleStringBlockQueue = new HandleStringBlockQueue(handleMain);
     }
 
 }

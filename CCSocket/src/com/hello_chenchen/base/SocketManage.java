@@ -10,7 +10,7 @@ import java.util.HashMap;
  */
 public class SocketManage {
 
-    private HashMap<Integer , SocketServer> socketMamageMap = new HashMap<Integer , SocketServer>();
+    private HashMap<Integer , SocketServer> socketMamageMap;
 
     public SocketManage()
     {

@@ -7,6 +7,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hello_chenchen/Business/HandleStringBlockQueue.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/hello_chenchen/common/CommonData.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hello_chenchen/common/CustomBlockQueueManage.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CCSocket/com/hello_chenchen/base/SocketServer.class" afterPath="$PROJECT_DIR$/out/production/CCSocket/com/hello_chenchen/base/SocketServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CCSocket/com/hello_chenchen/main/SocketMain.class" afterPath="$PROJECT_DIR$/out/production/CCSocket/com/hello_chenchen/main/SocketMain.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hello_chenchen/Business/HandleData.java" afterPath="$PROJECT_DIR$/src/com/hello_chenchen/Business/HandleData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hello_chenchen/base/ServiceManage.java" afterPath="$PROJECT_DIR$/src/com/hello_chenchen/base/ServiceManage.java" />
@@ -39,12 +41,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServiceManage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ServiceManage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hello_chenchen/base/ServiceManage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="268">
+              <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+              <folding>
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/hello_chenchen/main/SocketMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -72,10 +77,14 @@
       <file leaf-file-name="CustomConf.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hello_chenchen/config/CustomConf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="54">
+              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding>
                 <element signature="e#390#418#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
                 <element signature="e#1093#1094#0" expanded="true" />
                 <element signature="e#1124#1125#0" expanded="true" />
               </folding>
@@ -103,12 +112,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocketManage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SocketManage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hello_chenchen/base/SocketManage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="155">
+              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="20" />
+              <folding>
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,13 +199,13 @@
         <option value="$PROJECT_DIR$/src/com/hello_chenchen/common/CustomByteBlockQueueManage.java" />
         <option value="$PROJECT_DIR$/src/com/hello_chenchen/Business/CustomStringBlockQueueManage.java" />
         <option value="$PROJECT_DIR$/src/com/hello_chenchen/Business/CustomByteBlockQueueManage.java" />
-        <option value="$PROJECT_DIR$/src/com/hello_chenchen/base/SocketManage.java" />
         <option value="$PROJECT_DIR$/src/com/hello_chenchen/Business/HandleMain.java" />
         <option value="$PROJECT_DIR$/src/com/hello_chenchen/Business/HandleStringBlockQueue.java" />
         <option value="$PROJECT_DIR$/src/com/hello_chenchen/Business/HandleByteBlockQueue.java" />
         <option value="$PROJECT_DIR$/src/com/hello_chenchen/Business/HandleData.java" />
         <option value="$PROJECT_DIR$/src/com/hello_chenchen/main/SocketMain.java" />
         <option value="$PROJECT_DIR$/src/com/hello_chenchen/base/ServiceManage.java" />
+        <option value="$PROJECT_DIR$/src/com/hello_chenchen/base/SocketManage.java" />
       </list>
     </option>
   </component>
@@ -304,6 +316,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hello_chenchen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CCSocket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CCSocket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello_chenchen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CCSocket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CCSocket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello_chenchen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -744,7 +800,7 @@
       <workItem from="1487350340479" duration="12000" />
       <workItem from="1487501513557" duration="7424000" />
       <workItem from="1487526561362" duration="844000" />
-      <workItem from="1487527592796" duration="7438000" />
+      <workItem from="1487527592796" duration="8886000" />
     </task>
     <task id="LOCAL-00001" summary="转ubuntu">
       <created>1487172174646</created>
@@ -760,11 +816,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487265600140</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="生产者消费者模型已添加，基本框架已搭建出来了.但是功能暂时调试不通,留待下次调试.">
+      <created>1487620413970</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1487620413970</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38588000" />
+    <option name="totallyTimeSpent" value="40036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -852,7 +915,8 @@
     <MESSAGE value="add SocketManage.java to manage the ServerSocket. But BusinessControl do not known how to handle to receive Msg." />
     <MESSAGE value="转ubuntu" />
     <MESSAGE value="demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+    <MESSAGE value="生产者消费者模型已添加，基本框架已搭建出来了.但是功能暂时调试不通,留待下次调试." />
+    <option name="LAST_COMMIT_MESSAGE" value="生产者消费者模型已添加，基本框架已搭建出来了.但是功能暂时调试不通,留待下次调试." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -893,7 +957,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -919,7 +986,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -929,6 +999,10 @@
           <caret line="13" column="83" lean-forward="false" selection-start-line="13" selection-start-column="83" selection-end-line="13" selection-end-column="83" />
           <folding>
             <element signature="e#390#418#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
             <element signature="e#1093#1094#0" expanded="true" />
             <element signature="e#1124#1125#0" expanded="true" />
           </folding>
@@ -963,7 +1037,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -989,7 +1066,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding />
+          <folding>
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -999,6 +1079,10 @@
           <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="47" />
           <folding>
             <element signature="e#390#418#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
             <element signature="e#1093#1094#0" expanded="true" />
             <element signature="e#1124#1125#0" expanded="true" />
           </folding>
@@ -1033,7 +1117,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,7 +1146,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1069,6 +1159,10 @@
           <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="47" />
           <folding>
             <element signature="e#390#418#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
             <element signature="e#1093#1094#0" expanded="true" />
             <element signature="e#1124#1125#0" expanded="true" />
           </folding>
@@ -1103,7 +1197,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1121,7 +1218,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding />
+          <folding>
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1137,7 +1237,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,18 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hello_chenchen/config/CustomConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <element signature="e#390#418#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jdk1.8.0_111/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1210,14 +1301,6 @@
             <element signature="e#399#407#0" expanded="true" />
             <element signature="e#490#496#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hello_chenchen/base/SocketManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,16 +1352,46 @@
     <entry file="file://$PROJECT_DIR$/src/com/hello_chenchen/main/SocketMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="55" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hello_chenchen/config/CustomConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="e#390#418#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hello_chenchen/base/ServiceManage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="268">
+          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding>
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hello_chenchen/base/SocketManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

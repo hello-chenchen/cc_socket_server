@@ -11,6 +11,7 @@ import java.util.HashMap;
  */
 public class CustomConf implements ICommonDefine {
 
+    private int cap;
     private HashMap<Integer , CustomConfDefine> customConfMap = new HashMap<Integer , CustomConfDefine>();
 
     public CustomConf()
@@ -25,6 +26,7 @@ public class CustomConf implements ICommonDefine {
         CustomConfDefine value = new CustomConfDefine();
         value.index = 1;
         value.Port = 5000;//port
+        this.cap = 10;
         customConfMap.put(itKey, value);
 
         return CC_SUCCESS;
@@ -40,5 +42,10 @@ public class CustomConf implements ICommonDefine {
     public HashMap<Integer, CustomConfDefine> GetConfAll()
     {
         return customConfMap;
+    }
+
+    public int GetCap()
+    {
+        return this.cap;
     }
 }
