@@ -22,12 +22,19 @@ public class CustomConf implements ICommonDefine {
     public int InitConf()
     {
         //index
-        Integer itKey = new Integer(1);
+//        Integer itKey = new Integer(1);
+        this.cap = 10;
         CustomConfDefine value = new CustomConfDefine();
         value.index = 1;
         value.Port = 5000;//port
-        this.cap = 10;
-        customConfMap.put(itKey, value);
+        customConfMap.put(value.index, value);
+        value.index = 2;
+        value.Port = 8000;//port
+        customConfMap.put(value.index, value);
+        value.index = 3;
+        value.Port = 9000;//port
+        customConfMap.put(value.index, value);
+
 
         return CC_SUCCESS;
     }

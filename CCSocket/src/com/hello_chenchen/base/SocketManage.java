@@ -11,20 +11,17 @@ import java.util.HashMap;
 public class SocketManage {
 
     private HashMap<Integer , SocketServer> socketMamageMap;
+    private SocketServer socketServer;
 
     public SocketManage()
     {
         socketMamageMap = new HashMap<Integer, SocketServer>();
     }
 
-    public void AddSocketServer(int key)
+    public void AddSocketServer(int key, SocketServer socketServer)
     {
-        SocketServer value  = new SocketServer(5000);
-        Thread serverThread = new Thread(value);
-        serverThread.start();
-
         Integer itKey = new Integer(key);
-        socketMamageMap.put(itKey, value);
+        socketMamageMap.put(itKey, socketServer);
     }
 
     public SocketServer GetSocketServer(int key)

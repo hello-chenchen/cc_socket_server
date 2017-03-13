@@ -10,7 +10,7 @@ import java.util.HashMap;
  * Created by hello_chenchen on 2017/2/12.
  * jdk_version:jdk1.8.0_111
  */
-public class SocketServer implements Runnable {
+public class SocketServer extends Thread {
 
     private int socketServerPort;           //socket连接port
     private ServerSocket serverSocket;  //服务器socket
@@ -22,6 +22,7 @@ public class SocketServer implements Runnable {
      * @param Port 监听的端口
      */
     public SocketServer(int Port){
+        super();
         this.socketServerPort = Port;
 
         try {
@@ -31,6 +32,7 @@ public class SocketServer implements Runnable {
             e.printStackTrace();
         }
 
+        this.start();
     }
 
     @Override
