@@ -1,0 +1,4 @@
+<CCConfig>
+    <CCServer index="1" port="5000" Type="CC_DEMO"></CCServer>
+    <CCServer index="2" port="8000" Type="CC_DEMO"></CCServer>
+</CCConfig>

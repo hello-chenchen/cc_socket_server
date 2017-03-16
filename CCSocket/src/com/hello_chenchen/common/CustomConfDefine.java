@@ -7,4 +7,5 @@ package com.hello_chenchen.common;
 public class CustomConfDefine {
     public int index;
     public int Port;
+    public int Type;
 }
