@@ -1,17 +1,11 @@
 package com.hello_chenchen.base;
 
 import com.hello_chenchen.Business.HandleByteBlockQueue;
-import com.hello_chenchen.Business.HandleData;
 import com.hello_chenchen.Business.HandleMain;
 import com.hello_chenchen.Business.HandleStringBlockQueue;
-import com.hello_chenchen.base.SocketManage;
-import com.hello_chenchen.base.SocketServer;
 import com.hello_chenchen.common.CustomConfDefine;
 import com.hello_chenchen.common.ICommonDefine;
 import com.hello_chenchen.config.CustomConf;
-import com.hello_chenchen.main.SocketMain;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -34,8 +28,7 @@ public class ServiceManage implements ICommonDefine {
     private int InitBusCtl()
     {
         socketManage = new SocketManage();
-        customConf = new CustomConf();
-        CustomConfDefine customConfDefine;
+        customConf = CustomConf.getInstance();
 
         Map<Integer , CustomConfDefine> customConfDefineHashMap
                 = customConf.GetConfAll();
@@ -43,15 +36,11 @@ public class ServiceManage implements ICommonDefine {
         Iterator iter = customConfDefineHashMap.entrySet().iterator();
         while (iter.hasNext()) {
             HashMap.Entry entry = (HashMap.Entry) iter.next();
-            customConfDefine = (CustomConfDefine) entry.getValue();
+            CustomConfDefine customConfDefine = (CustomConfDefine) entry.getValue();
 
-            Logger logger = LoggerFactory.getLogger(ServiceManage.class);
-            logger.info(Integer.toString(customConfDefine.index));
+            SocketServer value  = new SocketServer(customConfDefine.Port);
+            socketManage.AddSocketServer(customConfDefine.index, value);
 
-//            SocketServer value  = new SocketServer(customConfDefine.Port);
-//            socketManage.AddSocketServer(customConfDefine.index, value);
-
-//            socketManage.GetSocketServer(customConfDefine.index);
         }
 
         return CC_SUCCESS;

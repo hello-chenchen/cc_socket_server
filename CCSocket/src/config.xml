@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <CCConfig>
+    <CCCaps>10</CCCaps>
     <CCServer index="1" port="5000" Type="CC_DEMO"></CCServer>
     <CCServer index="2" port="8000" Type="CC_DEMO"></CCServer>
 </CCConfig>

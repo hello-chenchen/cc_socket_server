@@ -10,7 +10,7 @@ import java.util.concurrent.BlockingQueue;
  */
 public class CommonData implements ICommonDefine{
 
-    private static int cap = new CustomConf().GetCap();
+    private static int cap = CustomConf.getInstance().GetCap();
     private static BlockingQueue<String> strBlockQueue = new ArrayBlockingQueue<String>(cap);
     private static BlockingQueue<Byte> btBlockQueue = new ArrayBlockingQueue<Byte>(cap);
 

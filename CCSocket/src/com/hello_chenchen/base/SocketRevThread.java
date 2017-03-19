@@ -1,5 +1,6 @@
 package com.hello_chenchen.base;
 
+import com.hello_chenchen.common.CommonData;
 import com.hello_chenchen.common.ICommonDefine;
 
 import java.io.BufferedReader;
@@ -45,7 +46,7 @@ public class SocketRevThread extends Thread implements ICommonDefine{
 
         try {
             while ((revMsg = revBuffer.readLine()) != null)
-                System.out.println(revMsg);
+                CommonData.PutStringBlockQueue(revMsg);
         } catch (IOException e) {
             e.printStackTrace();
         }

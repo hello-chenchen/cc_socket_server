@@ -3,8 +3,6 @@ package com.hello_chenchen.base;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.net.SocketException;
-import java.util.HashMap;
 
 /**
  * Created by hello_chenchen on 2017/2/12.
@@ -38,13 +36,11 @@ public class SocketServer extends Thread {
     @Override
     public void run() {
 
-//        while (true){
             try {
                 while (true) {
                     revSocket = serverSocket.accept();
                     System.out.println("Accept...");
                     new SocketRevThread(revSocket);
-
                 }
             } catch (IOException e){
                 System.out.println("client disconnected!");
@@ -61,12 +57,4 @@ public class SocketServer extends Thread {
 //        }
     }
 
-    /**
-     * 获取接收到的消息，有可能是null
-     * @return String接收到的消息
-     */
-//    public String getReceiveMsg()
-//    {
-//        return revMsg;
-//    }
 }

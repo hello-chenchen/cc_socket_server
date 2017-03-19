@@ -13,6 +13,6 @@ public class HandleData extends HandleMain{
 
     public void HandleMsg(Byte btValue)
     {
-        System.out.println(btValue);
+        System.out.println("CC1"+btValue);
     }
 }
